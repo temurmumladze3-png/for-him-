@@ -66,6 +66,7 @@ button{
 #result .emoji{
   font-size:50px;
   animation: pop 0.5s ease forwards;
+  display:flex
 }
 
 @keyframes pop{
@@ -117,4 +118,5 @@ button{
   opacity:0.5;
   z-index:99998;
   transition:0.15s linear;
+
 }
